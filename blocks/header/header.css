@@ -1,0 +1,19 @@
+.header {
+    margin: 28px 48px 0;
+    outline: 1px solid red;
+    height: 52px;
+    position: relative;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28px 24px 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header {
+        margin: 16px 16px 0;
+        height: 42px;
+    }
+}

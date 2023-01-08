@@ -1,0 +1,8 @@
+.header__lang-link_ru {
+    outline: 1px solid red;
+    text-decoration: underline;
+    position: absolute;
+    right: 47px;
+    top: 18px;
+    bottom: 6px;
+}
