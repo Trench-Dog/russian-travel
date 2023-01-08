@@ -3,7 +3,16 @@
     src: url(../../fonts/Inter-Regular.otf);
     font-weight: normal;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Black.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-SemiBold.otf);
+    font-weight: 700;
+}
 .page {
     background-color: #2a2c2f;
     position: relative;
@@ -11,4 +20,5 @@
     max-width: 1280px;
     margin: auto;
     outline: 1px solid red;
+    color: #ffffff;
 }
