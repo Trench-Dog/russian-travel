@@ -1,0 +1,8 @@
+.place {
+    outline: 1px solid red;
+    width: 100%;
+    position: relative;
+    max-height: 660px;
+    display: flex;
+    flex-flow: column wrap;
+}

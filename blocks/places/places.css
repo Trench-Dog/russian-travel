@@ -1,0 +1,5 @@
+.places {
+    max-width: calc(100% - 296px);
+    outline: 1px solid red;
+    margin: 92px auto;
+}
