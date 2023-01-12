@@ -6,4 +6,7 @@
     text-align: center;
     max-width: 360px;
     z-index: 2;
+    position: absolute;
+    outline: 1px solid red;
+    margin: 429px 412px 245px 412px;
 }

@@ -5,6 +5,10 @@
     line-height: 1.06;
     text-align: center;
     z-index: 2;
-    margin: auto;
+    margin: 245px 312px 343px 312px;
     max-width: 560px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    outline: 1px solid red;
 }
