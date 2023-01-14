@@ -3,25 +3,26 @@
     font-family: 'Inter';
     font-size: 30px;
     font-weight: 400;
-    margin: 32px 172px 64px;
+    margin: 32px auto 64px;
     line-height: 1.2;
-    max-width: 640px;
+    max-width: 60%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
     .lead__subtitle {
-        margin: 32px 144px 56px;
+        margin: 32px auto 56px;
+        max-width: 65%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .lead__subtitle {
-        margin: 32px 64px 56px;
+        margin: 32px auto 56px;
     }
 }
 @media screen and (max-width: 425px) {
     .lead__subtitle {
-        margin: 16px 16px 40px;
+        margin: 16px auto 40px;
         font-size: 16px;
         line-height: 1.25;
-        max-width: 288px;
+        max-width: 90%;
     }
 }
