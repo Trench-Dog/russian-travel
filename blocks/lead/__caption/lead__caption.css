@@ -1,7 +1,6 @@
 .lead__caption {
-    margin: 8px auto 0 0;
+    margin: 4px auto 0 0;
     text-transform: uppercase;
-    outline: 1px solid red;
     font-family: 'Inter';
     font-size: 10px;
     font-weight: 400;

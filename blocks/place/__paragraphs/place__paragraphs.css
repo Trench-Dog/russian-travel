@@ -1,0 +1,4 @@
+.place__paragraphs {
+    padding: 0;
+    grid-area: paragraphs;
+}

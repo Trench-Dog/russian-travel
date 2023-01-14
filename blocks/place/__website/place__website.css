@@ -1,5 +1,6 @@
 .place__website {
-    outline: 1px solid red;
-    width: 456px;
-    margin: 106px 28px 48px 40px;
+    grid-area: website;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }

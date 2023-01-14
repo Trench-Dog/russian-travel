@@ -1,8 +1,12 @@
 .place {
-    outline: 1px solid red;
     width: 100%;
     position: relative;
     max-height: 700px;
-    display: flex;
-    flex-flow: column wrap;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 48px;
+    grid-template-areas:
+        'title website'
+        'image paragraphs';
+    margin: 0 0 80px 0;
 }
