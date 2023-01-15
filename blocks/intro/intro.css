@@ -1,27 +1,26 @@
 .intro {
     max-width: 54%;
     max-height: 429px;
-    margin: 94px auto 92px 148px;
+    margin: 93px auto 92px 148px;
 }
 @media screen and (max-width: 1150px) {
     .intro {
         margin: 93px auto 92px 48px;
         max-width: 67%;
+        max-height: 550px;
     }
 }
 @media screen and (max-width: 800px) {
     .intro {
         margin: 88px auto 88px 24px;
         max-width: 94%;
-    }
-}
-@media screen and (max-width: 700px) {
-    .intro {
+        max-height: 625px;
     }
 }
 @media screen and (max-width: 425px) {
     .intro {
-        margin: 65px 16px 64px 16px;
+        margin: 65px 16px 93px 16px;
         max-width: 90%;
+        max-height: 724px;
     }
 }
