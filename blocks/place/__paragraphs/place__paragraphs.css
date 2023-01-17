@@ -8,6 +8,8 @@
 }
 @media screen and (max-width: 425px) {
     .place__paragraphs {
-        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+        row-gap: 27px;
     }
 }

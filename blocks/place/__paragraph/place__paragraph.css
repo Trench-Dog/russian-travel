@@ -5,7 +5,6 @@
     line-height: 1.61;
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
 }
 @media screen and (max-width: 800px) {
     .place__paragraph {
@@ -15,7 +14,8 @@
 @media screen and (max-width: 425px) {
     .place__paragraph {
         font-size: 16px;
-        margin: 25px 16px 0 16px;
+        margin: 0 16px 0 16px;
         line-height: 1.61;
+        max-width: 90%;
     }
 }
