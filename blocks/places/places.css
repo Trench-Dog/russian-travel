@@ -1,6 +1,7 @@
 .places {
     max-width: calc(100% - 296px);
-    margin: 92px auto;
+    margin: 92px auto 90px;
+    outline: 1px solid red;
 }
 @media screen and (max-width: 1150px) {
     .places {
@@ -10,12 +11,12 @@
 @media screen and (max-width: 800px) {
     .places {
         max-width: calc(100% - 48px);
-        margin: 94px auto 90px;
+        margin: 94px auto 73px;
     }
 }
 @media screen and (max-width: 425px) {
     .places {
         max-width: 100%;
-        margin: 66px 0 64px 0;
+        margin: 66px 0 50px 0;
     }
 }

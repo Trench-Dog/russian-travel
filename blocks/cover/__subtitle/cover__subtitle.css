@@ -7,5 +7,19 @@
     max-width: 360px;
     z-index: 2;
     position: absolute;
-    margin: 429px 412px 245px 412px;
+    margin: 429px auto 243px auto;
+    outline: 1px solid red;
+}
+@media screen and (max-width: 600px) {
+    .cover__subtitle {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1.14;
+        max-width: 90%;
+        margin: 328px auto 243px auto;
+    }
 }
