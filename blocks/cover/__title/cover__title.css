@@ -10,7 +10,6 @@
     color: #fff;
     text-decoration: none;
     position: absolute;
-    outline: 1px solid red;
 }
 @media screen and (max-width: 600px) {
     .cover__title {

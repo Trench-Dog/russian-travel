@@ -4,5 +4,15 @@
     font-size: 14px;
     line-height: 1.14;
     text-align: right;
-    margin: 0 0 0 auto;
+    margin: 1px 10px 0 auto;
+}
+@media screen and (max-width: 720px) {
+    .footer__copyright {
+        margin: 14px auto 0 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer__copyright {
+        line-height: 1;
+    }
 }
