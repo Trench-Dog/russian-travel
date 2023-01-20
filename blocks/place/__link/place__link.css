@@ -6,7 +6,6 @@
     font-size: 18px;
     line-height: 1.22;
     transition: opacity 0.5s ease 0.1;
-    max-height: 22px;
 }
 
 .place__link:hover {

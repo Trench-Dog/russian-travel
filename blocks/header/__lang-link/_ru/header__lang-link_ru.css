@@ -1,13 +1,3 @@
 .header__lang-link_ru {
     text-decoration: underline;
-    position: absolute;
-    right: 47px;
-    top: 18px;
-    bottom: 6px;
-}
-@media screen and (max-width: 425px) {
-    .header__lang-link_ru {
-        top: 15px;
-        right: 40px;
-    }
 }
