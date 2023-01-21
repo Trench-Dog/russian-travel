@@ -7,7 +7,7 @@
     grid-template-areas:
         'title website'
         'image paragraphs';
-    margin: 0 0 80px 0;
+    margin: 80px 0 0 0;
     padding: 0;
 }
 @media screen and (max-width: 1150px) {
@@ -18,8 +18,8 @@
 @media screen and (max-width: 800px) {
     .place {
         column-gap: 28px;
-        margin: 0 0 73px 0;
-        row-gap: 45px;
+        margin-top: 74px;
+        row-gap: 44px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -31,6 +31,6 @@
             'paragraphs';
         column-gap: 0;
         row-gap: 32px;
-        margin: 0 0 53px 0;
+        margin-top: 51px;
     }
 }

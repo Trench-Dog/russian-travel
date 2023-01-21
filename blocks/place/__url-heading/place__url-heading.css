@@ -5,4 +5,15 @@
     font-size: 12px;
     line-height: 1;
     letter-spacing: 2px;
+    margin: 0 0 10px 0;
+}
+@media screen and (max-width: 1150px) {
+    .place__url-heading {
+        margin-bottom: 9px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .place__url-heading {
+        margin-bottom: 14px;
+    }
 }
