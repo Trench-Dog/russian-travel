@@ -1,0 +1,12 @@
+.header__links {
+    padding: 0;
+    margin: 18px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
+}
+@media screen and (max-width: 425px) {
+    .header__links {
+        margin-top: 14px;
+    }
+}
